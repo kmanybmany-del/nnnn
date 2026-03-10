@@ -1,8 +1,9 @@
 {
-  "buildCommand": "pnpm install --no-frozen-lockfile && pnpm run build",
+  "buildCommand": "pnpm install --no-frozen-lockfile && next build",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "env": {
-    "NEXT_PUBLIC_API_URL": "@next_public_api_url"
+    "PNPM_HOME": "/pnpm",
+    "PATH": "$PNPM_HOME:$PATH"
   },
   "regions": ["iad1"],
   "functions": {
