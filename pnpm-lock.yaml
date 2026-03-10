@@ -12,31 +12,31 @@ importers:
         specifier: ^0.27.3
         version: 0.27.3
       cheerio:
-        specifier: ^1.0.0-rc.12
+        specifier: ^1.2.0
         version: 1.2.0
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
       framer-motion:
-        specifier: ^11.3.19
+        specifier: ^11.18.2
         version: 11.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide-react:
         specifier: ^0.424.0
         version: 0.424.0(react@18.3.1)
       next:
-        specifier: ^14.2.35
+        specifier: 14.2.35
         version: 14.2.35(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       openai:
         specifier: ^6.27.0
         version: 6.27.0
       react:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1
       react-dom:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-dropzone:
-        specifier: ^14.2.3
+        specifier: ^14.4.1
         version: 14.4.1(react@18.3.1)
       replicate:
         specifier: ^0.31.1
@@ -48,32 +48,32 @@ importers:
         specifier: ^2.0.7
         version: 2.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tailwind-merge:
-        specifier: ^2.5.2
+        specifier: ^2.6.1
         version: 2.6.1
     devDependencies:
       '@types/cheerio':
         specifier: ^0.22.35
         version: 0.22.35
       '@types/node':
-        specifier: ^20
+        specifier: ^20.19.37
         version: 20.19.37
       '@types/react':
-        specifier: ^18
+        specifier: ^18.3.28
         version: 18.3.28
       '@types/react-dom':
-        specifier: ^18
+        specifier: ^18.3.7
         version: 18.3.7(@types/react@18.3.28)
       autoprefixer:
-        specifier: ^10.0.1
+        specifier: ^10.4.27
         version: 10.4.27(postcss@8.5.8)
       postcss:
-        specifier: ^8
+        specifier: ^8.5.8
         version: 8.5.8
       tailwindcss:
-        specifier: ^3.4.1
+        specifier: ^3.4.19
         version: 3.4.19
       typescript:
-        specifier: ^5
+        specifier: ^5.9.3
         version: 5.9.3
 
 packages:
