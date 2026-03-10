@@ -27,6 +27,13 @@ export interface PlatformSchedule {
 
 export type ContentType = 'post' | 'story' | 'reels' | 'video' | 'short' | 'tweet' | 'pin' | 'snap' | 'status' | 'ad';
 
+export interface PlatformContent {
+  contentType: ContentType;
+  caption?: string;
+  imageUrl?: string;
+  videoUrl?: string;
+}
+
 export interface ScheduledItem {
   id: string;
   perfumeName: string;
@@ -34,13 +41,21 @@ export interface ScheduledItem {
   productUrl: string;
   scheduledDate: string; // YYYY-MM-DD
   scheduledTime: string; // HH:mm
-  platformId: string;
-  contentType: ContentType;
   status: 'scheduled' | 'published' | 'failed' | 'draft';
-  imageUrl?: string;
-  videoUrl?: string;
-  caption?: string;
   createdAt: string;
+  platforms: {
+    instagram?: PlatformContent;
+    tiktok?: PlatformContent;
+    snapchat?: PlatformContent;
+    youtube?: PlatformContent;
+    twitter?: PlatformContent;
+    facebook?: PlatformContent;
+    linkedin?: PlatformContent;
+    telegram?: PlatformContent;
+    whatsapp?: PlatformContent;
+    pinterest?: PlatformContent;
+    haraj?: PlatformContent;
+  };
 }
 
 export interface DailyPlan {
